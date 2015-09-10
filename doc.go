@@ -5,10 +5,10 @@
 package cuda5
 
 // Dummy imports so that
-// 	go get github.com/barnex/cuda5
+// 	go get github.com/abduld/cuda5
 // will install everything.
 import (
-	_ "github.com/barnex/cuda5/cu"
-	_ "github.com/barnex/cuda5/cufft"
-	_ "github.com/barnex/cuda5/safe"
+	_ "github.com/abduld/cuda5/cu"
+	_ "github.com/abduld/cuda5/cufft"
+	_ "github.com/abduld/cuda5/safe"
 )

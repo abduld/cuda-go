@@ -17,8 +17,8 @@ package cufft
 //#cgo CFLAGS: -I/usr/local/cuda-5.0/include/
 //
 ////arch linux:
-//#cgo LDFLAGS:-L/opt/cuda/lib64 -L/opt/cuda/lib
-//#cgo CFLAGS: -I/opt/cuda/include
+//#cgo LDFLAGS:-L/usr/local/cuda/lib64 -L/usr/local/cuda/lib
+//#cgo CFLAGS: -I/usr/local/cuda/include
 //
 ////WINDOWS:
 //#cgo windows LDFLAGS:-LC:/cuda/v5.0/lib/x64 -LC:/cuda/v5.5/lib/x64 -LC:/cuda/v6.0/lib/x64

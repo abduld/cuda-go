@@ -1,7 +1,7 @@
 package safe
 
 import (
-	"github.com/barnex/cuda5/cu"
+	"github.com/abduld/cuda5/cu"
 	"unsafe"
 )
 

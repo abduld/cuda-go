@@ -1,7 +1,7 @@
 PACKAGE DOCUMENTATION
 
 package curand
-    import "github.com/barnex/cuda5/curand"
+    import "github.com/abduld/cuda5/curand"
 
 
 

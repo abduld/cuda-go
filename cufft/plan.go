@@ -1,4 +1,4 @@
-// Copyright 2011 Arne Vansteenkiste (barnex@gmail.com).  All rights reserved.
+// Copyright 2011 Arne Vansteenkiste (abduld@gmail.com).  All rights reserved.
 // Use of this source code is governed by a freeBSD
 // license that can be found in the LICENSE.txt file.
 
@@ -8,7 +8,7 @@ package cufft
 import "C"
 
 import (
-	"github.com/barnex/cuda5/cu"
+	"github.com/abduld/cuda5/cu"
 	"unsafe"
 )
 

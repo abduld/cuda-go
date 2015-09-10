@@ -8,7 +8,7 @@ all: 6g gccgo doc
 GCCGO=gccgo -gccgoflags '-static-libgcc -O3'
 
 gccgo:
-	go build -v -compiler $(GCCGO)
+	go build -v
 
 test: 6gtest gccgotest
 
@@ -30,4 +30,4 @@ clean:
 	go clean
 
 doc:
-	godoc github.com/barnex/cuda5/cu > README
+	godoc github.com/abduld/cuda5/cu > README

@@ -1,7 +1,7 @@
 PACKAGE DOCUMENTATION
 
 package cufft
-    import "github.com/barnex/cuda5/cufft"
+    import "github.com/abduld/cuda5/cufft"
 
     Go bindings for the CUDA CUFFT API.
 

@@ -1,7 +1,7 @@
 PACKAGE
 
 package cu
-    import "github.com/barnex/cuda5/cu"
+    import "github.com/abduld/cuda5/cu"
 
     Go bindings for the CUDA driver API.
 

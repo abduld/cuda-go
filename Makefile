@@ -5,10 +5,9 @@ all: 6g doc
 	go tool vet *.go
 	gofmt -w *.go
 
-GCCGO=gccgo -gccgoflags '-static-libgcc -O3'
 
 gccgo:
-	go install -v -compiler $(GCCGO)
+	go install
 
 test: 6gtest gccgotest
 
@@ -36,4 +35,4 @@ opt:
 	gofmt -w *.go
 
 doc:
-	godoc github.com/barnex/cuda5 > README
+	godoc github.com/abduld/cuda5 > README
